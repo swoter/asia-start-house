@@ -1,0 +1,1 @@
+module.exports=[{name:"book now",path:"tel:+6281212121212",title:"About",target:"_self",icon:""},{name:"menu",path:"/menu",title:"Menu",target:"_self",icon:""},{name:"contact",path:"/contact",title:"Contact",target:"_self",icon:""},{name:"location",path:"/contact#map",title:"Special",target:"_self",icon:""}];
