@@ -144,9 +144,9 @@ body {
       color: #ffd700;
       font-size: 24px;
       border: 1px solid #ffd700;
-      box-shadow: 0 5px 10px 0 rgba($color: $black, $alpha: 0.5);
-      text-shadow: 5px 5px 5px rgba($color: $black, $alpha: 0.5);
-      background-color: rgba($color: $black, $alpha: 0.4);
+      // box-shadow: 0 5px 10px 0 rgba($color: $black, $alpha: 0.5);
+      //  text-shadow: 5px 5px 5px rgba($color: $black, $alpha: 0.5);
+      // background-color: rgba($color: $black, $alpha: 0.4);
       transition: $all-transitions;
       &:hover {
         background-color: $gold;
