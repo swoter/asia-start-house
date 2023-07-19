@@ -60,6 +60,8 @@ body {
 
 .header {
   &-navbar {
+    position: relative;
+    z-index: $zindex + 1;
     .container-fluid {
       align-items: flex-start;
     }
@@ -71,11 +73,7 @@ body {
     }
 
     .navbar-nav {
-      position: fixed;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 10%;
-      flex-direction: column;
+      display: none;
     }
     .nav-item {
       position: relative;
@@ -486,7 +484,7 @@ h6 {
       background-color: #000;
       background-image: url("../images/home/bg.jpg");
       background-position: center top;
-      background-size: auto 100%;
+      background-size: cover;
       background-repeat: no-repeat;
 
       .overlay {
@@ -778,8 +776,7 @@ h6 {
   .header {
     &-navbar {
       .navbar-nav {
-        position: static;
-        transform: translateY(0);
+        display: block;
       }
       .nav-item {
         margin-left: 0;
