@@ -60,7 +60,6 @@ body {
 
 .header {
   &-navbar {
-    position: relative;
     z-index: $zindex + 1;
     .container-fluid {
       align-items: flex-start;
