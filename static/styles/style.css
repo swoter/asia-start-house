@@ -577,7 +577,6 @@ body {
   font-weight: 600;
   font-size: 16px;
   border: 1px solid rgba(255, 255, 255, 0.8);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   transition: all 0.4s ease-in-out;
 }
 .main-nav-menu li a:hover, .main-nav-menu li a.active {
@@ -676,11 +675,11 @@ body {
   z-index: 2;
 }
 .section-call {
-  background-image: url(/static/images/call/bg.jpg?v=y2eppuvg);
+  background-image: url(/static/images/call/bg.jpg?v=va7n6gcy);
 }
 .section-3 {
   position: relative;
-  background: url(../images/home/section-3.jpg?v=y2eppuvg) no-repeat center center;
+  background: url(../images/home/section-3.jpg?v=va7n6gcy) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -689,7 +688,7 @@ body {
   z-index: 2;
 }
 .section-5 {
-  background: #222f3d url(../images/home/section-5.png?v=y2eppuvg) no-repeat center center;
+  background: #222f3d url(../images/home/section-5.png?v=va7n6gcy) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -702,7 +701,7 @@ body {
   width: 65px;
 }
 .section-7 {
-  background: url(../images/home/section-7.jpg?v=y2eppuvg) no-repeat center center;
+  background: url(../images/home/section-7.jpg?v=va7n6gcy) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -712,7 +711,7 @@ body {
   z-index: 2;
 }
 .section-contact {
-  background: url(../images/contact/section.jpg?v=y2eppuvg) no-repeat center center;
+  background: url(../images/contact/section.jpg?v=va7n6gcy) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -903,7 +902,7 @@ h6 {
   position: relative;
   min-height: 100vh;
   background-color: #000;
-  background-image: url("../images/home/bg.jpg?v=y2eppuvg");
+  background-image: url("../images/home/bg.jpg?v=va7n6gcy");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -934,7 +933,7 @@ h6 {
   display: inline-flex;
 }
 .home .section-2 .col-md-6:last-child {
-  background-image: url("../images/home/section-2.jpg?v=y2eppuvg");
+  background-image: url("../images/home/section-2.jpg?v=va7n6gcy");
   background-position: center right;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -1015,7 +1014,7 @@ h6 {
 }
 
 .about .banner-container {
-  background-image: url("../images/about/bg.jpg?v=y2eppuvg");
+  background-image: url("../images/about/bg.jpg?v=va7n6gcy");
 }
 .about .section-1 {
   padding-bottom: 200px;
@@ -1068,15 +1067,15 @@ h6 {
 }
 
 .special .banner-container {
-  background-image: url("../images/special/bg.jpg?v=y2eppuvg");
+  background-image: url("../images/special/bg.jpg?v=va7n6gcy");
 }
 
 .menu .banner-container {
-  background-image: url("../images/menu/bg.jpg?v=y2eppuvg");
+  background-image: url("../images/menu/bg.jpg?v=va7n6gcy");
 }
 
 .contact .banner-container {
-  background-image: url("../images/contact/bg.jpg?v=y2eppuvg");
+  background-image: url("../images/contact/bg.jpg?v=va7n6gcy");
   margin-bottom: 0;
 }
 
@@ -1274,7 +1273,7 @@ h6 {
     text-align: center;
   }
   .home .section-2 .col-md-6:last-child {
-    background-image: url("../images/home/section-2.jpg?v=y2eppuvg");
+    background-image: url("../images/home/section-2.jpg?v=va7n6gcy");
     background-position: center right;
     background-size: 100% auto;
     background-repeat: no-repeat;
