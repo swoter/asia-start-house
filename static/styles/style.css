@@ -562,6 +562,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 60px;
 }
 .main-nav-menu li + li {
   margin-top: 10px;
@@ -571,11 +572,12 @@ body {
   padding: 15px 60px;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #ff7e05;
-  font-size: 24px;
-  border-radius: 30px;
-  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #FFD700;
+  border-color: #FFD700;
+  /* font-size: 24px; */
+  /* border-radius: 30px; */
+  /* box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.8); */
   transition: all 0.4s ease-in-out;
 }
 .main-nav-menu li a:hover, .main-nav-menu li a.active {
