@@ -146,6 +146,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-top: 80px;
     li {
       & + li {
         margin-top: 10px;
@@ -156,15 +157,8 @@ body {
         padding: 15px 60px;
         text-align: center;
         text-transform: capitalize;
-        background-color: rgba($color: $white, $alpha: 0.8);
-        ///background-image: linear-gradient(to bottom, rgba($color: $gold, $alpha: 0.1), rgba($color: $gold, $alpha: 0.5), rgba($color: $gold, $alpha: 0.1));
-        color: #ff7e05;
-        font-size: 24px;
-        border-radius: 30px;
-
-        box-shadow: 0 0 15px 0 rgba($color: #fff, $alpha: 0.8);
-        //text-shadow: 0 0 5px rgba($color: #fff, $alpha: 1);
-        // background-color: rgba($color: $black, $alpha: 0.4);
+        background-color: rgba($color: $white, $alpha: 0.2);
+        color: $gold;
         transition: $all-transitions;
         &:hover,
         &.active {
