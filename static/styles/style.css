@@ -890,7 +890,7 @@ h6 {
 .home-section-info p {
   color: #fff;
 }
-.home-section-info a.boxbtn {
+a.boxbtn {
   display: inline-flex;
   width: 200px;
   margin-top: 10px;
@@ -900,7 +900,7 @@ h6 {
   border: 1px solid #fff;
   transition: all 0.4s ease-in-out;
 }
-.home-section-info.boxbtn a:hover {
+a:hover {
   background: #ffd700;
   border-color: #ffd700;
   color: #000;
