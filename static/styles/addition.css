@@ -2,8 +2,8 @@
 
 nav .logo {
     float: left;
-    margin-left: 30px;
-    
+    margin-left: 10px;
+    margin-top: 5px;
   }
   
   nav .logo a {
@@ -42,7 +42,7 @@ nav .logo {
     border: 1px solid #fff;
     width: 50px;
     height: 50px;
-    margin: 15px 39px 0 auto;
+    margin: 15px 15px 0 auto;
     position: relative;
     cursor: pointer;
     transition: background 0.5s;
@@ -104,7 +104,7 @@ nav .logo {
     z-index: 100;
     left: 0;
     top: 0;
-    height: 100%;
+    
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     width: 100%;
@@ -314,4 +314,15 @@ nav .logo {
     outline: none;
   }
   
-  
+
+  .nav-link {
+    font-family: Teko, sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: #fff;
+  }
+
+.home .section-3 {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home/section-3.jpg) no-repeat center center;
+    background-size:cover;
+}
