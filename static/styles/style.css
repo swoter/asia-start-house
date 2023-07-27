@@ -477,10 +477,10 @@ a:hover {
 }
 
 body {
-  background: #000;
+  background: #121212;
   color: #dfdcd0;
   font-family: var(--font-family-sans-serif);
-  background-color: #000;
+  background-color: #121212;
   font-size: 1rem;
 }
 
@@ -570,12 +570,15 @@ body {
 .main-nav-menu li a {
   display: block;
   padding: 15px 60px;
+  width: 200px;
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
   text-align: center;
   text-transform: uppercase;
   color: #ffd700;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
+  font-family: Teko, sans-serif;
   border: 2px solid #ffd700;
   transition: all 0.4s ease-in-out;
 }
@@ -584,9 +587,6 @@ body {
   box-shadow: 0 0 15px 0 rgba(255, 215, 0, 0.8);
   border-color: #ffd700;
   color: #000;
-}
-.main-nav-menu li a:hover {
-  padding: 15px 100px;
 }
 
 .btn-gold {
@@ -675,11 +675,11 @@ body {
   z-index: 2;
 }
 .section-call {
-  background-image: url(/static/images/call/bg.jpg?v=jtw6rqpw);
+  background-image: url(/static/images/call/bg.jpg?v=sg2pwx0t);
 }
 .section-3 {
   position: relative;
-  background: url(../images/home/section-3.jpg?v=jtw6rqpw) no-repeat center center;
+  background: url(../images/home/section-3.jpg?v=sg2pwx0t) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -688,7 +688,7 @@ body {
   z-index: 2;
 }
 .section-5 {
-  background: #222f3d url(../images/home/section-5.png?v=jtw6rqpw) no-repeat center center;
+  background: #222f3d url(../images/home/section-5.png?v=sg2pwx0t) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -701,7 +701,7 @@ body {
   width: 65px;
 }
 .section-7 {
-  background: url(../images/home/section-7.jpg?v=jtw6rqpw) no-repeat center center;
+  background: url(../images/home/section-7.jpg?v=sg2pwx0t) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -711,7 +711,7 @@ body {
   z-index: 2;
 }
 .section-contact {
-  background: url(../images/contact/section.jpg?v=jtw6rqpw) no-repeat center center;
+  background: url(../images/contact/section.jpg?v=sg2pwx0t) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -870,6 +870,38 @@ h6 {
     opacity: 0.5;
   }
 }
+.home-section-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-section-info h3 {
+  font-family: Teko, sans-serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  color: #fff;
+}
+.home-section-info p {
+  color: #fff;
+}
+.home-section-info a {
+  display: inline-flex;
+  width: 200px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #fff;
+  transition: all 0.4s ease-in-out;
+}
+.home-section-info a:hover {
+  background: #ffd700;
+  border-color: #ffd700;
+  color: #000;
+}
+
 .home-img {
   width: 100%;
   height: auto;
@@ -902,7 +934,7 @@ h6 {
   position: relative;
   min-height: 100vh;
   background-color: #000;
-  background-image: url("../images/home/bg.jpg?v=jtw6rqpw");
+  background-image: url("../images/home/bg.jpg?v=sg2pwx0t");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -933,20 +965,22 @@ h6 {
   display: inline-flex;
 }
 .home .section-2 .col-md-6:last-child {
-  background-image: url("../images/home/section-2.jpg?v=jtw6rqpw");
+  background-image: url("../images/home/section-2.jpg?v=sg2pwx0t");
   background-position: center right;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .home .section-3 {
   background: none;
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 .home .section-3 .home-menu-item {
   margin: 0 auto;
   width: 70%;
   align-items: center;
+}
+.home .section-gallery {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .home-menu {
   display: flex;
@@ -960,17 +994,14 @@ h6 {
 .home-menu-item {
   width: 100%;
   display: flex;
+  flex-direction: column;
   color: #fff;
 }
 .home-menu-item + .home-menu-item {
   margin-top: 50px;
 }
-.home-menu-item-left, .home-menu-item-right {
-  width: 50%;
-}
 .home-menu-item-right {
   padding-top: 8px;
-  padding-left: 40px;
 }
 .home-menu-item h3 {
   font-family: Teko, sans-serif;
@@ -979,17 +1010,18 @@ h6 {
   margin-bottom: 0;
   padding: 0;
   color: #fff;
-  text-align: right;
-  padding-right: 40px;
+  text-align: center;
 }
 .home-menu-links {
   display: flex;
-  justify-content: space-between;
-  width: 380px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
 }
 .home-menu-links a {
-  flex: 1 1 50%;
   display: inline-flex;
+  width: 200px;
   justify-content: center;
   align-items: center;
   height: 30px;
@@ -1014,7 +1046,7 @@ h6 {
 }
 
 .about .banner-container {
-  background-image: url("../images/about/bg.jpg?v=jtw6rqpw");
+  background-image: url("../images/about/bg.jpg?v=sg2pwx0t");
 }
 .about .section-1 {
   padding-bottom: 200px;
@@ -1067,15 +1099,15 @@ h6 {
 }
 
 .special .banner-container {
-  background-image: url("../images/special/bg.jpg?v=jtw6rqpw");
+  background-image: url("../images/special/bg.jpg?v=sg2pwx0t");
 }
 
 .menu .banner-container {
-  background-image: url("../images/menu/bg.jpg?v=jtw6rqpw");
+  background-image: url("../images/menu/bg.jpg?v=sg2pwx0t");
 }
 
 .contact .banner-container {
-  background-image: url("../images/contact/bg.jpg?v=jtw6rqpw");
+  background-image: url("../images/contact/bg.jpg?v=sg2pwx0t");
   margin-bottom: 0;
 }
 
@@ -1205,6 +1237,10 @@ h6 {
   .banner-container-text h1 {
     font-size: calc(1.5rem + 4vw);
   }
+  .home-section-info h3 {
+    font-size: 40px;
+    line-height: 40px;
+  }
   .home-info-box {
     line-height: 1.7;
   }
@@ -1273,11 +1309,14 @@ h6 {
     text-align: center;
   }
   .home .section-2 .col-md-6:last-child {
-    background-image: url("../images/home/section-2.jpg?v=jtw6rqpw");
+    background-image: url("../images/home/section-2.jpg?v=sg2pwx0t");
     background-position: center right;
     background-size: 100% auto;
     background-repeat: no-repeat;
     min-height: 300px;
+  }
+  .home .section-3 {
+    padding-top: 20px;
   }
   .menu-item-img {
     width: 90px;
